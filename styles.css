@@ -714,8 +714,75 @@ PRICING
 
 */
 
+.get__started--container {
+    width: 100%;
+    background-color: #6415ff;
+    margin: 80px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.get__started--description {
+    margin: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.get__started--para {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.get__started--buttons {
+    display: flex;
+}
+
+.get__started--btn {
+    background-color: #f56565;
+    padding: 12px 42px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.get__started--btn:hover {
+    background-color: #d64444;
+}
+
+.contact__us--btn {
+  background-color: #6415ff;
+    padding: 24px 42px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    margin: 0px 32px;  
+}
+
+.contact__us--btn:hover {
+    background-color: #fff;
+    color: #6415ff;
+}
+
+/*
+
+GET STARTED
+
+*/
+
+
 #links {
-    background-color: #5f32ff;
+    background-color: #6415ff;
     padding: 32px 150px;
 }
 
@@ -780,7 +847,7 @@ LINKS
 */
 
 footer {
-    background-color: #5f32ff;
+    background-color: #6415ff;
     padding: 48px 150px;
 }
 
@@ -919,7 +986,36 @@ FOOTER
     .plan__business {
         margin: 0;
     }
-}
+
+    .get__started--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 32px;
+        max-height: 35vh;
+    }
+
+    .get__started--buttons {
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .get__started--description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .get__started--para {
+        text-align: center;
+        width: 100%;
+    }
+
+    }
+
 
 @media (max-width:768px) {
     .services {
@@ -1048,4 +1144,30 @@ FOOTER
         display: flex;
         flex-wrap: wrap;
     }
-}
+
+    .get__started--buttons {
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .get__started--container {
+        display: flex;
+        height: 100%;
+        max-height: fit-content;
+        width: 100%;
+    }
+
+    .get__started--btn {
+        padding: 24px 24px;
+        
+    }
+
+    .contact__us--btn {
+        margin: 12px 0px;
+    }
+
+    .get__started--para {
+        width: 100%;
+    }
+
